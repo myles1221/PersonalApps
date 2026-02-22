@@ -1,0 +1,9 @@
+{
+  "name": "Finance Tracker",
+  "short_name": "Finance",
+  "description": "Local personal finance tracker - no account needed",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a"
+}

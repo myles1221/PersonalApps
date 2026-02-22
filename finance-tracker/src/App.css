@@ -1,0 +1,118 @@
+.app {
+  min-height: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.header {
+  padding: 1rem 1rem 0.5rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.tagline {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.upload-section {
+  padding: 1rem;
+  background: var(--surface);
+  border-radius: var(--radius);
+  margin: 0 1rem 1rem;
+}
+
+.upload-label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+.input.account-name {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--surface2);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.upload-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+.btn-secondary {
+  background: var(--surface2);
+  color: var(--text);
+}
+
+.btn-secondary:hover {
+  background: var(--surface);
+}
+
+.paste-form {
+  margin-top: 0.75rem;
+}
+
+.textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--surface2);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.9rem;
+  resize: vertical;
+  margin-bottom: 0.5rem;
+}
+
+.paste-form .btn {
+  width: 100%;
+}
+
+.message {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.85rem;
+}
+
+.message.error {
+  color: var(--danger);
+}
+
+.message.success {
+  color: var(--success);
+}
+
+.main {
+  padding: 0;
+}

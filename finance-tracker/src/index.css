@@ -1,0 +1,54 @@
+:root {
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --surface2: #334155;
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+  --accent2: #a78bfa;
+  --success: #34d399;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --radius: 12px;
+  --font: 'DM Sans', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--accent);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+/* Category colors for charts and list */
+.cat-food { --cat: #34d399; }
+.cat-transport { --cat: #38bdf8; }
+.cat-shopping { --cat: #a78bfa; }
+.cat-bills { --cat: #fbbf24; }
+.cat-entertainment { --cat: #f472b6; }
+.cat-health { --cat: #2dd4bf; }
+.cat-groceries { --cat: #4ade80; }
+.cat-other { --cat: #94a3b8; }
